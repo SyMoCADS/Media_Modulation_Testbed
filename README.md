@@ -5,7 +5,7 @@
 This repository contains parts of the code used in the paper titled "Closed-Loop Long-Term Experimental Molecular Communication System". For the Arxiv version of the paper: [Click here](https://arxiv.org/pdf/2502.00831).
 
 > [!NOTE]
-> This repository includes only a subset of experimental data to keep it small and quick to download. To access the complete experimental dataset, download the [full database](https://zenodo.org/records/13898880/files/mmtb.db?download=1) from [Zenodo](https://zenodo.org/uploads/13898880) and place the `mmtb.db` file in the project directory. The data will be accessible as long as this file is located in the current working directory or its subdirectories.
+> This repository includes only a subset of experimental data to keep it small and quick to download. To access the complete experimental dataset, download the [full database](https://zenodo.org/records/13898880/files/mmtb.db?download=1) from [Zenodo](https://zenodo.org/records/13898880) and place the `mmtb.db` file in the project directory or one of its subdirectories. 
 
 ## Module Structure & Documentation
 The `mmtb`package is structured as followed:
@@ -18,12 +18,12 @@ The `mmtb`package is structured as followed:
     * ([**dtypes**](./docs/dtypes.md))
 
 > [!IMPORTANT]
-> This serves as the documentation for this package. By clicking on the specific submodules, you can learn more about their classes and functions. Note also that all new data types/classes are collected in the `dtypes` submodule.
+> By clicking on the specific submodules, you can access the documentation and learn more about their classes and functions. Note also that all new data types/classes are collected in the `dtypes` submodule.
 
 ## Code Examples
 Detailed list and description of all code examples: [Click here](./examples/examples.md).
 
-The code examples refer to the examples in the `examples` folder. After the initial setup and installation, you may download and run them yourself.
+The code examples refer to the examples in the `examples` folder. After the initial setup and installation of the `mmtb`package, you can run them yourself.
 To run the code examples, we recommend to use [Installation Option 2](#Installation), once you finished the steps in [Prerequisites](#Prerequisites) and [Set Up](#Set-Up).
 
 ## Setup & Installation
@@ -31,10 +31,10 @@ To run the code examples, we recommend to use [Installation Option 2](#Installat
 ### Prerequisites
 
 + [Git](https://git-scm.com/downloads)
-+ [Python](https://www.python.org/downloads/) (3.11 or newer)
++ [Python](https://www.python.org/downloads/) (3.11 or newer, but not [Python 3.13.0](https://github.com/python/cpython/issues/125179))
 
 > [!CAUTION]
-> This package relies on the `tkinter` package for the graphical user interface. However, the Python distributions for Unix/macOS operating systems do not include it out of the box. This means you have to install it yourself using your native package manager.
+> This package relies on the `tkinter` package for the graphical user interface. However, some Python distributions for Unix/macOS operating systems do not include it out of the box. This means you have to install it yourself using your native package manager.
 > + Debian/Ubuntu-based Linux:
 >```shell
 > sudo apt install python3-tk
@@ -66,7 +66,7 @@ To run the code examples, we recommend to use [Installation Option 2](#Installat
       ```
 
 > [!TIP]
-> To ensure you're using the right Python version in the virtual environment, specify the version in the Windows Command Prompt like this:
+> To ensure you're using the right Python version in the virtual environment, specify the version in the Windows Command Prompt. E.g., for Python version 3.11, type:
 > ```shell
 > py -3.11 -m venv .venv
 > ```
@@ -80,7 +80,11 @@ To run the code examples, we recommend to use [Installation Option 2](#Installat
       ```
 
 > [!WARNING]
-> If you encounter issues, run `Set-ExecutionPolicy Unrestricted -Scope Process` and attempt to activate again.
+> If you encounter issues, run
+> ```shell
+>  Set-ExecutionPolicy Unrestricted -Scope Process
+> ```
+> and attempt to activate again. This command allows you to run all scripts, regardless of signature, within the current terminal, until you close the terminal. 
 
 
 #### Unix/macOS
@@ -99,7 +103,7 @@ To run the code examples, we recommend to use [Installation Option 2](#Installat
      ```
 
 > [!TIP]
-> To ensure you're using the right Python version in the virtual environment, specify the version like this:
+> To ensure you're using the right Python version in the virtual environment, specify the version. E.g., for Python version 3.11, type:
 > ```shell
 > python3.11 -m venv .venv
 > ```
@@ -148,7 +152,7 @@ You have two options to install this package:
 
 ## Additional Experimental Data
    - The majority of our experimental results are provided via Zenodo under the CC BY licence.
-   - To access data from all experiments presented in our [paper](https://arxiv.org/pdf/2502.00831), download the [full database](https://zenodo.org/records/13898880/files/mmtb.db?download=1) from [Zenodo](https://zenodo.org/uploads/13898880) and copy it (the `mmtb.db` file) into your project folder.
+   - To access data from all experiments presented in our [paper](https://arxiv.org/pdf/2502.00831), download the [full database](https://zenodo.org/records/13898880/files/mmtb.db?download=1) from [Zenodo](https://zenodo.org/records/13898880) and copy it (the `mmtb.db` file) into your project folder.
 
 
 
