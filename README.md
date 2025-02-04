@@ -51,7 +51,7 @@ To run the code examples, we recommend to use [Installation Option 2](#Installat
 ### Set Up
 
 #### Windows
-
+   
 1. **Create a Project Folder and Navigate to it**
    - Create a new directory to store your project.
    - Navigate to the directory with:
@@ -92,9 +92,8 @@ To run the code examples, we recommend to use [Installation Option 2](#Installat
 > ```
 > and attempt to activate again. This command allows you to run all scripts, regardless of signature, within the current terminal, until you close the terminal. 
 
-
 #### Unix/macOS
-
+   
 1. **Create a Project Folder and Navigate to it**
    - Create a new directory to store your project.
    - Navigate to the directory with:
@@ -112,6 +111,12 @@ To run the code examples, we recommend to use [Installation Option 2](#Installat
 > To ensure you're using the right Python version in the virtual environment, specify the version. E.g., for Python version 3.11, type:
 > ```shell
 > python3.11 -m venv .venv
+> ```
+
+> [!TIP]
+> You may want to [use your already existing global existing Python packages](https://www.nithinbose.com/posts/make-virtualenv-use-packages-from-global-site-packages/):
+> ```shell
+> python3 -m venv .venv --system-site-packages
 > ```
 
    - Activate the environment with:
