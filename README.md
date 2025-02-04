@@ -72,6 +72,12 @@ To run the code examples, we recommend to use [Installation Option 2](#Installat
 > ```
 
 > [!TIP]
+> You may want to [use your already existing global existing Python packages](https://www.nithinbose.com/posts/make-virtualenv-use-packages-from-global-site-packages/):
+> ```shell
+> py -m venv .venv --system-site-packages
+> ```
+
+> [!TIP]
 > Other terminals than the Windows Command Prompt may require the command *python* instead of *py*
 
    - Activate the environment with:
