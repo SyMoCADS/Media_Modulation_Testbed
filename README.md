@@ -5,7 +5,7 @@
 This repository contains parts of the code used in the paper titled "Closed-Loop Long-Term Experimental Molecular Communication System". For the Arxiv version of the paper: [Click here](https://arxiv.org/pdf/2502.00831).
 
 > [!NOTE]
-> This repository includes only a subset of experimental data to keep it small and quick to download. To access the complete experimental dataset, download the [full database](https://zenodo.org/api/records/13898880/draft/files/mmtb.db/content) from [Zenodo](https://zenodo.org/uploads/13898880) and place the `mmtb.db` file in the project directory. The data will be accessible as long as this file is located in the current working directory or its subdirectories.
+> This repository includes only a subset of experimental data to keep it small and quick to download. To access the complete experimental dataset, download the [full database](https://zenodo.org/records/13898880/files/mmtb.db?download=1) from [Zenodo](https://zenodo.org/uploads/13898880) and place the `mmtb.db` file in the project directory. The data will be accessible as long as this file is located in the current working directory or its subdirectories.
 
 ## Module Structure & Documentation
 The `mmtb`package is structured as followed:
@@ -148,7 +148,7 @@ You have two options to install this package:
 
 ## Additional Experimental Data
    - The majority of our experimental results are provided via Zenodo under the CC BY licence.
-   - To access data from all experiments presented in our [paper](https://arxiv.org/pdf/2502.00831), download the [full database](https://zenodo.org/api/records/13898880/draft/files/mmtb.db/content) from [Zenodo](https://zenodo.org/uploads/13898880) and copy it (the `mmtb.db` file) into your project folder.
+   - To access data from all experiments presented in our [paper](https://arxiv.org/pdf/2502.00831), download the [full database](https://zenodo.org/records/13898880/files/mmtb.db?download=1) from [Zenodo](https://zenodo.org/uploads/13898880) and copy it (the `mmtb.db` file) into your project folder.
 
 
 
