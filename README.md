@@ -31,7 +31,10 @@ To run the code examples, we recommend to use [Installation Option 2](#Installat
 ### Prerequisites
 
 + [Git](https://git-scm.com/downloads)
-+ [Python](https://www.python.org/downloads/) (3.11 or newer, but not [Python 3.13.0](https://github.com/python/cpython/issues/125179))
++ [Python](https://www.python.org/downloads/)
+
+> [!IMPORTANT]
+> This package works with Python 3.11, 3.12, and 3.13 (excluding [Python 3.13.0](https://github.com/python/cpython/issues/125179))
 
 > [!CAUTION]
 > This package relies on the `tkinter` package for the graphical user interface. However, some Python distributions for Unix/macOS operating systems do not include it out of the box. This means you have to install it yourself using your native package manager.
@@ -43,10 +46,13 @@ To run the code examples, we recommend to use [Installation Option 2](#Installat
 >```shell
 > sudo zypper in python3-tk
 >```
-> + macOS:
+> + macOS 
 >```shell
 > brew install python-tk@3.11
 >```
+
+> [!NOTE]
+> Adapt @3.11 to the Python version you are using.
 
 ### Set Up
 
@@ -59,17 +65,22 @@ To run the code examples, we recommend to use [Installation Option 2](#Installat
       cd <path-to-directory>
       ```
 
-2. **Create and Activate a Virtual Environment:**
+2. **Create a Virtual Environment:**
    - To create a virtual environment enter:
       ```shell
       py -m venv .venv
       ```
+> [!IMPORTANT]
+> Other terminals than the Windows Command Prompt may require the command *python* instead of *py*
 
 > [!TIP]
-> To ensure you're using the right Python version in the virtual environment, specify the version in the Windows Command Prompt. E.g., for Python version 3.11, type:
+> To ensure you're using an suitable Python version in the virtual environment, specify the version in the Windows Command Prompt:
 > ```shell
 > py -3.11 -m venv .venv
 > ```
+
+> [!NOTE]
+> Adapt -3.11 to the Python version you are using.
 
 > [!TIP]
 > You may want to [use your already existing global existing Python packages](https://www.nithinbose.com/posts/make-virtualenv-use-packages-from-global-site-packages/):
@@ -77,9 +88,7 @@ To run the code examples, we recommend to use [Installation Option 2](#Installat
 > py -m venv .venv --system-site-packages
 > ```
 
-> [!TIP]
-> Other terminals than the Windows Command Prompt may require the command *python* instead of *py*
-
+3. **Activate the Virtual Environment:**
    - Activate the environment with:
       ```shell
       .\.venv\Scripts\activate
@@ -101,7 +110,7 @@ To run the code examples, we recommend to use [Installation Option 2](#Installat
       cd <path-to-directory>
       ```
 
-2. **Create and Activate a Virtual Environment:**
+2. **Create a Virtual Environment:**
    - To create a virtual environment enter:
      ```shell
      python3 -m venv .venv
@@ -113,12 +122,16 @@ To run the code examples, we recommend to use [Installation Option 2](#Installat
 > python3.11 -m venv .venv
 > ```
 
+> [!NOTE]
+> Adapt 3.11 to the Python version you are using.
+
 > [!TIP]
 > You may want to [use your already existing global existing Python packages](https://www.nithinbose.com/posts/make-virtualenv-use-packages-from-global-site-packages/):
 > ```shell
 > python3 -m venv .venv --system-site-packages
 > ```
 
+3. **Activate the Virtual Environment:**
    - Activate the environment with:
      ```shell
      source .venv/bin/activate
