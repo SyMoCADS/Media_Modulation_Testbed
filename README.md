@@ -2,7 +2,9 @@
 
 # Media Modulation Testbed: Code Package
 
-This repository contains parts of the code used in the paper titled "Closed-Loop Long-Term Experimental Molecular Communication System". For the Arxiv version of the paper: [Click here](https://arxiv.org/pdf/2502.00831).
+This repository contains parts of the code from the paper:
+
+M. Scherer, L. Brand, L. Wolf, T. tom Dieck, M. Schäfer, S. Lotter, A. Burkovski, H. Sticht, R. Schober, and K. Castiglione, "Closed-Loop Long-Term Experimental Molecular Communication System," *arXiv version arXiv:2502.00831*, Feb. 2025. [Click here to view the paper](https://arxiv.org/pdf/2502.00831).
 
 > [!NOTE]
 > This repository includes only a subset of experimental data to keep it small and quick to download. To access the complete experimental dataset, download the [full database](https://zenodo.org/records/13898880/files/mmtb.db?download=1) from [Zenodo](https://zenodo.org/records/13898880) and place the `mmtb.db` file in the project directory or one of its subdirectories. 
@@ -34,7 +36,7 @@ To run the code examples, we recommend to use [Installation Option 2](#Installat
 + [Python](https://www.python.org/downloads/)
 
 > [!IMPORTANT]
-> This package works with Python 3.11, 3.12, and 3.13 (excluding [Python 3.13.0](https://github.com/python/cpython/issues/125179))
+> This package is compatible with Python 3.11, 3.12, and 3.13 (excluding [Python 3.13.0](https://github.com/python/cpython/issues/125179))
 
 > [!CAUTION]
 > This package relies on the `tkinter` package for the graphical user interface. However, some Python distributions for Unix/macOS operating systems do not include it out of the box. This means you have to install it yourself using your native package manager.
@@ -83,7 +85,7 @@ To run the code examples, we recommend to use [Installation Option 2](#Installat
 > Adapt -3.11 to the Python version you are using.
 
 > [!TIP]
-> You may want to [use your already existing global existing Python packages](https://www.nithinbose.com/posts/make-virtualenv-use-packages-from-global-site-packages/):
+> You may want to [use globally installed Python packages](https://www.nithinbose.com/posts/make-virtualenv-use-packages-from-global-site-packages/):
 > ```shell
 > py -m venv .venv --system-site-packages
 > ```
@@ -126,7 +128,7 @@ To run the code examples, we recommend to use [Installation Option 2](#Installat
 > Adapt 3.11 to the Python version you are using.
 
 > [!TIP]
-> You may want to [use your already existing global existing Python packages](https://www.nithinbose.com/posts/make-virtualenv-use-packages-from-global-site-packages/):
+> You may want to [use globally installed Python packages](https://www.nithinbose.com/posts/make-virtualenv-use-packages-from-global-site-packages/):
 > ```shell
 > python3 -m venv .venv --system-site-packages
 > ```
@@ -146,7 +148,7 @@ You have two options to install this package:
     pip install git+https://github.com/SyMoCADS/Media_Modulation_Testbed.git
     ```
 
-- Option 2: Download/Cloning & Local Installation (recommended to **test our code examples**):
+- Option 2: Download/Cloning & Local Installation (recommended to **test the provided code examples**):
     1. Clone repository by running:
        ```shell
        git clone https://github.com/SyMoCADS/Media_Modulation_Testbed.git
@@ -172,7 +174,7 @@ You have two options to install this package:
       > python ./examples/plotting_example.py
       >```
 > [!TIP]
-> Zoom into the plots so that the initial gray bars disappear and the curves look nice.
+> Increasing the zoom level in the plot will make the gray bars that are present in the initial view disappear.
 
 ## Additional Experimental Data
    - The majority of our experimental results are provided via Zenodo under the CC BY licence.
@@ -181,7 +183,7 @@ You have two options to install this package:
 
 
 ## Contact
-If you have any question or suggestions for improvements, feel free to open up issues or contact us directly.
+If you have any question or suggestions for improvements, feel free to open an issue or contact us directly.
 
 **Louis Wolf**:
 
