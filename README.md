@@ -1,5 +1,8 @@
 <img src="idc_bvt_logo.png" alt="IDC Logo" width="130" height="80"/>
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.13898880.svg)](https://doi.org/10.5281/zenodo.13898880) \
+<sub><sup>This Zenodo digital object identifier should be used to cite the data and/or code.</sup></sub>
+
 # Media Modulation Testbed: Code Package
 
 This repository contains parts of the code from the paper:
@@ -7,7 +10,8 @@ This repository contains parts of the code from the paper:
 M. Scherer, L. Brand, L. Wolf, T. tom Dieck, M. Schäfer, S. Lotter, A. Burkovski, H. Sticht, R. Schober, and K. Castiglione, "Closed-Loop Long-Term Experimental Molecular Communication System," *arXiv version arXiv:2502.00831*, Feb. 2025. [Click here to view the paper](https://arxiv.org/pdf/2502.00831).
 
 > [!NOTE]
-> This repository includes only a subset of experimental data to keep it small and quick to download. To access the complete experimental dataset, download the [full database](https://zenodo.org/records/13898880/files/mmtb.db?download=1) from [Zenodo](https://zenodo.org/records/13898880) and place the `mmtb.db` file in the project directory or one of its subdirectories. 
+> This repository includes only a subset of experimental data to keep it small and quick to download. To access the complete experimental dataset, download the [full database](https://zenodo.org/records/13898880/files/mmtb.db?download=1) from [Zenodo](https://zenodo.org/records/13898880) and place the `mmtb.db` file in the project directory or one of its subdirectories.
+
 
 ## Module Structure & Documentation
 The `mmtb`package is structured as followed:
